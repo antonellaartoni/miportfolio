@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Antonella Artoni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="background-blur"></div>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">AA</a>
+            <nav>
+                <ul>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content container">
+                <div class="code-animation">
+                    <span class="bracket">&lt;</span><span class="slash">/</span><span class="bracket">&gt;</span>
+                </div>
+                <h1>Hola, soy <span>Antonella Artoni</span></h1>
+                <p>Desarrolladora de Software apasionada por crear soluciones modernas, eficientes y accesibles que combinan buenas prácticas y una excelente experiencia de usuario.</p>
+                <a href="#" class="cta-button">Descargar CV</a>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Proyectos Destacados</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <img src="img/edusync.jpg" alt="Proyecto EduSync">
+                        <div class="project-card-content">
+                            <h3>EduSync</h3>
+                            <p>Sistema de gestión para docentes que permite administrar clases, estudiantes y materiales de manera eficiente.</p>
+                            <div class="tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#">Ver Código →</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/proyecto_Datos.jpg" alt="Proyecto Análisis de Datos">
+                        <div class="project-card-content">
+                            <h3>Análisis del Mercado Laboral y Salarial en IA (2025)</h3>
+                            <p>Análisis de datos laborales y salariales utilizando Python y Pandas para predecir tendencias del mercado.</p>
+                            <div class="tags">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#">Ver Código →</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/rickmorty.jpg" alt="Proyecto Rick and Morty API">
+                        <div class="project-card-content">
+                            <h3>Rick and Morty Page</h3>
+                            <p>Página web que consume la API de Rick y Morty para mostrar información de la serie, con paginación y filtros.</p>
+                            <div class="tags">
+                                <span>JavaScript</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#">Ver Código →</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>Sobre Mí</h2>
+                <p style="text-align: center; max-width: 800px; margin: 0 auto;">
+                    Soy una desarrolladora de software que transforma ideas en soluciones digitales. Mi pasión es construir código limpio, escalable y eficiente, creando puentes entre la lógica del backend y experiencias de usuario fluidas en el frontend. Me considero una artesana digital, siempre en busca del equilibrio perfecto entre una arquitectura sólida y un diseño intuitivo.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Hablemos</h2>
+                 <form id="contact-form" action="https://formspree.io/f/xgegegyp" method="POST" style="max-width: 600px; margin: 0 auto;">
+                    <div style="margin-bottom: 1rem;">
+                        <input type="text" name="name" placeholder="Tu Nombre" required style="width: 100%; padding: 0.8rem; background: var(--card-bg); border: 1px solid #333; border-radius: 5px; color: var(--text-color);">
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <input type="email" name="email" placeholder="Tu Email" required style="width: 100%; padding: 0.8rem; background: var(--card-bg); border: 1px solid #333; border-radius: 5px; color: var(--text-color);">
+                    </div>
+                    <div style="margin-bottom: 1.5rem;">
+                        <textarea name="message" rows="5" placeholder="Tu Mensaje" required style="width: 100%; padding: 0.8rem; background: var(--card-bg); border: 1px solid #333; border-radius: 5px; color: var(--text-color);"></textarea>
+                    </div>
+                    <div style="text-align: center;">
+                        <button type="submit" class="cta-button">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+            <div class="social-links">
+                <a href="https://github.com/antonellaartoni" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/antonella-artoni-57500b28b" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="mailto:antonellaartoni19@gmail.com" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+
+            </div>
+            <p>&copy; 2025 - Antonella Artoni. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
